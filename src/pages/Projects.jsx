@@ -4,6 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 import DreamGarageImg from "../assets/projectImg/Garage.png";
 import e_shop from "../assets/projectImg/e-shop.png";
 import blogfolioImg from "../assets/projectImg/Blogfolio.png";
+import wetherlyImg from "../assets/projectImg/wether.png"
 
 const projects = [
   {
@@ -29,6 +30,13 @@ const projects = [
     image: blogfolioImg,
     liveLink: "https://dummy-blogfolio.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Weatherly | Weather App",
+    description: "Weatherly is a modern, responsive weather forecasting app built with React, Tailwind CSS, Framer Motion, and Recharts.It uses the Open-Meteo API to fetch real-time weather data, 5-day forecasts, and hourly temperature trends for any city in the world.",
+    image: wetherlyImg,
+    liveLink: "https://dummy-weather-web-app-gamma.vercel.app/",
+  }
 ];
 
 const Projects = () => {
