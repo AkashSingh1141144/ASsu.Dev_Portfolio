@@ -95,9 +95,8 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
           {/* Resume Button */}
           <motion.a
-            href="/resume.pdf" // public folder ka path
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/resume.pdf" 
+            download="resume.pdf"
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1.8 }}
