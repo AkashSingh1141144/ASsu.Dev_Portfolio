@@ -1,12 +1,33 @@
-# React + Vite
+# Akash Kumar Singh Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio Website – A modern, responsive, and interactive personal portfolio built using React, Tailwind CSS, Framer Motion, and React Router. This project showcases my skills, projects, and contact information in a clean and professional way, aimed to impress recruiters and clients.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: Fully responsive layout for mobile, tablet, and desktop devices.
 
-## Expanding the ESLint configuration
+Smooth Animations: Interactive transitions using Framer Motion for an engaging user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Showcase: Highlighted projects with descriptions, tech stack, and live/demo links.
+
+Contact Form: Functional contact form integrated with EmailJS for sending messages directly.
+
+Direct Contact Section: Quick access to email and phone number for instant communication.
+
+Navigation: Easy-to-use routing with React Router DOM.
+
+Tech Stack
+
+React.js
+
+Tailwind CSS
+
+Framer Motion
+
+React Router DOM
+
+EmailJS
+
+Purpose
+
+This portfolio demonstrates my frontend development skills, including React, responsive design, animations, and modern UI/UX practices. It’s ideal for recruiters, clients, or anyone wanting to explore my work and get in touch.
