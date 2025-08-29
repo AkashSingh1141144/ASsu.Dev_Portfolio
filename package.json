@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "bun vite",
+    "build": "bun vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "bun vite preview"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
