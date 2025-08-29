@@ -71,7 +71,7 @@ const SkillsMarquee = () => {
           {skills.map((skill, index) => (
             <span
               key={index}
-              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-tr from-slate-300 to-zinc-100 text-gray-700 rounded-full font-medium inline-block shadow-md"
+              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-tr from-slate-300 to-zinc-100 text-gray-700 rounded-full font-medium shadow-md"
             >
               {skill.icon}
               {skill.name}
@@ -81,7 +81,7 @@ const SkillsMarquee = () => {
           {skills.map((skill, index) => (
             <span
               key={index + skills.length}
-              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-tr from-slate-300 to-zinc-100 text-gray-700 rounded-full font-medium inline-block shadow-md"
+              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-tr from-slate-300 to-zinc-100 text-gray-700 rounded-full font-medium  shadow-md"
             >
               {skill.icon}
               {skill.name}
