@@ -77,19 +77,19 @@ const About = () => {
             I work with:
           </p>
 
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-gray-600 px-4 sm:px-6 md:px-8">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-gray-600 px-4 sm:px-6 md:px-8 font-semibold">
             <span className="text-gray-600 mt-4 text-2xl font-semibold font-sans sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl">Frontend: </span>
             HTML, CSS, React.js, JavaScript, Tailwind CSS
           </p>
 
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-gray-600 px-4 sm:px-6 md:px-8">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-gray-600 px-4 sm:px-6 md:px-8 font-semibold">
             <span className="text-gray-600 mt-4 text-2xl font-semibold font-sans sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl">
               Version Control:{" "}
             </span>
             Git & GitHub
           </p>
 
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-gray-600 px-4 sm:px-6 md:px-8">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-gray-600 px-4 sm:px-6 md:px-8 font-semibold">
             <span className="text-gray-600 mt-4 text-2xl font-semibold font-sans sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl">Extra Skills: </span>
             Clean code, responsive UI, and creating smooth user experiences
           </p>

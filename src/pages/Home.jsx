@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+// import React, { lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import SkillsMarquee from "../components/SkillsMarquee";
 // import ScrollIndicator from "../components/ScrollIndicator";
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import heroImg from "../assets/Akash.jpg";
 // import Projects from "./Projects";
 
-const Projects = lazy(() => import("./Projects"));
+// const Projects = lazy(() => import("./Projects"));
 
 const Home = () => {
   return (
@@ -151,17 +151,16 @@ const Home = () => {
         {/* <ScrollIndicator /> */}
         <SkillsMarquee />
 
-        <Suspense fallback={<div className="text-center py-20 text-cyan-400 text-lg font-bold">Loading...</div>}>
+        {/* <Suspense fallback={<div className="text-center py-20 text-cyan-400 text-lg font-bold">Loading...</div>}>
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           viewport={{ once: true }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.9 }}
         >
-                            < Projects />
-
+              <Projects />
         </motion.div>
-        </Suspense>
+        </Suspense> */}
       </div>
     </>
   );

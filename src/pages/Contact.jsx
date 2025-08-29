@@ -83,7 +83,7 @@ const Contact = () => {
         </motion.p>
       </div>
 
-      <div className="min-h-screen flex flex-col items-center justify-center p-6 -mt-14 w-full gap-10">
+      <div className="min-h-screen flex flex-col items-center justify-center p-6 w-full gap-10 ">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
