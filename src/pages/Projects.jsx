@@ -5,6 +5,7 @@ import DreamGarageImg from "../assets/projectImg/Garage.png";
 import e_shop from "../assets/projectImg/e-shop.png";
 import blogfolioImg from "../assets/projectImg/Blogfolio.png";
 import wetherlyImg from "../assets/projectImg/wether.png"
+import todoImg from "../assets/projectImg/Todo.png"
 
 const projects = [
   {
@@ -36,7 +37,14 @@ const projects = [
     description: "Weatherly is a modern, responsive weather forecasting app built with React, Tailwind CSS, Framer Motion, and Recharts.It uses the Open-Meteo API to fetch real-time weather data, 5-day forecasts, and hourly temperature trends for any city in the world.",
     image: wetherlyImg,
     liveLink: "https://dummy-weather-web-app-gamma.vercel.app/",
-  }
+  },
+    {
+    id: 5,
+    title: "Todo_List | Todo App",
+    description: "A simple yet elegant Todo Application built with React, styled using Tailwind CSS, and enhanced with smooth animations using Framer Motion.The app is designed to be minimal, fast, and user-friendly, showcasing React hooks, state management, and animation integration in a real-world project.",
+    image: todoImg,
+    liveLink: "https://todo-list-app-black-three.vercel.app/",
+  },
 ];
 
 const Projects = () => {
