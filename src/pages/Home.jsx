@@ -1,14 +1,14 @@
-// import React, { lazy, Suspense } from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 import SkillsMarquee from "../components/SkillsMarquee";
 import { Link } from "react-router-dom";
 import heroImg from "../assets/Akash.jpg";
-import toast, { Toaster } from "react-hot-toast"; // ✅ import toast
+import toast, { Toaster } from "react-hot-toast"; // ✅ Toast import
 
 const Home = () => {
-  // Resume download handler
+  // ✅ Resume download handler
   const handleResumeDownload = () => {
-    toast.success("Resume downloaded successfully ✅", {
+    toast.success("✅ Resume downloaded successfully!", {
       duration: 3000,
       position: "top-center",
     });
@@ -16,9 +16,11 @@ const Home = () => {
 
   return (
     <>
-      <Toaster /> {/* ✅ Toast container */}
+      {/* ✅ Toast container */}
+      <Toaster />
 
       <div className="text-start px-14 w-full h-auto">
+        {/* Heading */}
         <motion.h1
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -74,11 +76,11 @@ const Home = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
-          {/* ✅ Resume Button with toast */}
+          {/* ✅ Download Resume Button */}
           <motion.a
             href="/resume.pdf"
-            download="resume.pdf"
-            onClick={handleResumeDownload} // ✅ toast trigger
+            download="Akash-Resume.pdf"
+            onClick={handleResumeDownload} // ✅ trigger toast
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1.8 }}
@@ -87,7 +89,7 @@ const Home = () => {
             Download Resume
           </motion.a>
 
-          {/* View Projects */}
+          {/* View Projects Button */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -100,6 +102,11 @@ const Home = () => {
               View Projects
             </Link>
           </motion.div>
+        </div>
+
+        {/* Skills Section */}
+        <div className="mt-16">
+          <SkillsMarquee />
         </div>
       </div>
     </>
